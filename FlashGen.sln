@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2B07478F-BE3B-4095-92F7-254983C71FD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B60A55CC-10E0-4D0D-8932-8DE29728EE27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Card", "Card", "{548B4FDE-FE85-4F46-AA0F-447ECA4306C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashGen.Card.Domain", "src\Services\Card\FlashGen.Card.Domain\FlashGen.Card.Domain.csproj", "{9E405926-1F82-4B2D-A4D3-502FD25CB859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E405926-1F82-4B2D-A4D3-502FD25CB859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E405926-1F82-4B2D-A4D3-502FD25CB859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E405926-1F82-4B2D-A4D3-502FD25CB859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E405926-1F82-4B2D-A4D3-502FD25CB859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B60A55CC-10E0-4D0D-8932-8DE29728EE27} = {2B07478F-BE3B-4095-92F7-254983C71FD4}
+		{548B4FDE-FE85-4F46-AA0F-447ECA4306C2} = {B60A55CC-10E0-4D0D-8932-8DE29728EE27}
+		{9E405926-1F82-4B2D-A4D3-502FD25CB859} = {548B4FDE-FE85-4F46-AA0F-447ECA4306C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7786B02A-4BDB-431A-A519-40DCC7333094}
+	EndGlobalSection
+EndGlobal
